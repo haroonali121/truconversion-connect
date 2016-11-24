@@ -16,12 +16,11 @@
                     <label>Enabled</label>
                     <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
                 </field>
-                <field id="truconversion_domain_id" translate="label comment" type="text" sortOrder="6" showInDefault="1" showInWebsite="1" showInStore="1">
+                <field id="truconversion_domain_id" translate="label comment" type="text" sortOrder="2" showInDefault="1" showInWebsite="1" showInStore="1">
                     <label>TruConversion Domain ID</label>
-                    <comment>Your TruConversion Domain id.</comment>
+                    <comment><![CDATA[Dont' have an Domain ID? Click <a href="http://help.truconversion.com/getting-started-with-truconversion/">here</a> to know how to get Domain ID.]]></comment>
                 </field>
             </group>
-
         </section>
     </system>
 </config>
